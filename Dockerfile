@@ -1,3 +1,3 @@
-FROM elasticsearch:6.6.2
+FROM elasticsearch
 
 RUN bin/elasticsearch-plugin install --batch ingest-attachment
