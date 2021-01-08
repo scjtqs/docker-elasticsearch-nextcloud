@@ -1,3 +1,3 @@
-FROM elasticsearch:6.8.13
+FROM elasticsearch:7.10.13
 
 RUN bin/elasticsearch-plugin install --batch ingest-attachment
